@@ -16,7 +16,7 @@ namespace Bubble_Sort_Activity
         {
             while (true)
             {
-                Console.Write(" Enter your wanted number pf elements");
+                Console.WriteLine(" Enter your wanted number of elements");
                 String s = Console.ReadLine();
                 n = Int32.Parse(s);
                 if (n <= 20)
@@ -73,7 +73,8 @@ namespace Bubble_Sort_Activity
             mylist.read();
             mylist.BubblesortArray();
             mylist.display();
-
+            Console.WriteLine("\n\n Prees any key to exit.");
+            Console.Read();
         }
     }
 }
