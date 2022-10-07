@@ -72,7 +72,7 @@ namespace Bubble_Sort_Activity
 
             mylist.read();
             mylist.BubblesortArray();
-
+            mylist.display();
 
         }
     }
