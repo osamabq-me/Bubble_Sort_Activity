@@ -36,6 +36,19 @@ namespace Bubble_Sort_Activity
                 a[i] = Int32.Parse(s1);
             }
         }
+
+        public void display()
+        {
+            Console.WriteLine("");
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("Arrenged array Elements");
+            Console.WriteLine("---------------------------");
+            for(int j = 0; j < n; j++)
+            {
+                Console.WriteLine(a[j]);
+            }
+            Console.WriteLine("");
+        }
         static void Main(string[] args)
         {
         }
