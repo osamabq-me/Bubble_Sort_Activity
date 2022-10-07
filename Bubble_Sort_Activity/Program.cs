@@ -9,6 +9,8 @@ namespace Bubble_Sort_Activity
     class Program
     {
         private int[] a = new int[20];
+
+        private int n;
         static void Main(string[] args)
         {
         }
