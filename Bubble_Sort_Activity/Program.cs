@@ -29,6 +29,12 @@ namespace Bubble_Sort_Activity
             Console.WriteLine("Enter elements to the array");
             Console.WriteLine("---------------------------");
 
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("<" + (i + 1) + ">");
+                string s1 = Console.ReadLine();
+                a[i] = Int32.Parse(s1);
+            }
         }
         static void Main(string[] args)
         {
