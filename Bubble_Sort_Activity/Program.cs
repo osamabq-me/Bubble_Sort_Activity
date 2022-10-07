@@ -71,6 +71,9 @@ namespace Bubble_Sort_Activity
             Program mylist = new Program();
 
             mylist.read();
+            mylist.BubblesortArray();
+
+
         }
     }
 }
