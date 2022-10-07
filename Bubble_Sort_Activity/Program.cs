@@ -14,6 +14,20 @@ namespace Bubble_Sort_Activity
 
         public void read()
         {
+            while (true)
+            {
+                Console.Write(" Enter your wanted number pf elements");
+                String s = Console.ReadLine();
+                n = Int32.Parse(s);
+                if (n <= 20)
+                    break;
+                else
+                    Console.WriteLine("the maximam number of element is 20.\n");
+            }
+            Console.WriteLine("");
+            Console.WriteLine("---------------------------");
+            Console.WriteLine("Enter elements to the array");
+            Console.WriteLine("---------------------------");
 
         }
         static void Main(string[] args)
