@@ -49,6 +49,14 @@ namespace Bubble_Sort_Activity
             }
             Console.WriteLine("");
         }
+
+        public void BubblesortArray()
+        {
+            for (int i = 1; i < n; i++)
+            {
+
+            }
+        }
         static void Main(string[] args)
         {
         }
