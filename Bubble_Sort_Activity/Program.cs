@@ -69,6 +69,8 @@ namespace Bubble_Sort_Activity
         static void Main(string[] args)
         {
             Program mylist = new Program();
+
+            mylist.read();
         }
     }
 }
