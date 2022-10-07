@@ -54,7 +54,10 @@ namespace Bubble_Sort_Activity
         {
             for (int i = 1; i < n; i++)
             {
+                for (int j = 0; j <= n; j++)
+                {
 
+                }
             }
         }
         static void Main(string[] args)
