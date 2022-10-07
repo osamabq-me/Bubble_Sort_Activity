@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace Bubble_Sort_Activity
 {
-    internal class Program
+    class Program
     {
+        private int[] a = new int[20];
         static void Main(string[] args)
         {
         }
